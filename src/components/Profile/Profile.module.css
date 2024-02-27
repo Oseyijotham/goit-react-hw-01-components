@@ -1,0 +1,79 @@
+.profile{
+    background-color: rgb(238, 236, 236);
+    border-radius: 4px;
+    border: 1px solid rgba(15, 15, 15, 0.3);
+    padding-top: 40px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    font-family:'Comic Sans MS';
+    font-size: 16px;
+}
+
+.description{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Comic Sans MS';
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tag{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(105, 105, 105);
+}
+
+.location{
+    color: rgb(105, 105, 105);
+}
+
+.stats{
+    display: flex;
+    border-top: 1px solid rgba(15, 15, 15, 0.3);
+    justify-content: space-between;
+    background-color: rgb(209, 209, 209);
+}
+
+.statsItems{
+    width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.statsItemsMid{
+    composes:statsItems;
+    border-left: 1px solid rgba(15, 15, 15, 0.3);
+    border-right: 1px solid rgba(15, 15, 15, 0.3);
+}
+
+.label{
+    display: block;
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+
+.quantity{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
