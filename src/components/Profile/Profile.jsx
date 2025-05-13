@@ -13,11 +13,24 @@ export const Profile = ({ username, avatar, stats, index }) => (
       </li>
       <li key={index} className={css.statsItemsMid}>
         <span className={css.label}>Skills</span>
-        <span className={css.quantity}>HTML, CSS, React, Node, Express, Docker</span>
+        <span className={css.quantity}>
+          HTML, CSS, React, Node, Express, Docker
+        </span>
       </li>
       <li key={index} className={css.statsItems}>
         <span className={css.label}>Hobbies and Interests</span>
         <span className={css.quantity}>Gaming, Reading</span>
+      </li>
+      <li key={index} className={css.statsItems}>
+        <span className={css.label}>Certification</span>
+        <span className={css.quantity}>
+          <a
+            target="_"
+            href="https://drive.google.com/file/d/1c0DyXH2eKTVnOfBhgAAno5X7plUfSgTT/view"
+          >
+            GoIT Fullstack Developer Certification
+          </a>
+        </span>
       </li>
     </ul>
   </div>
