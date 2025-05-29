@@ -50,20 +50,21 @@
 
 .stats{
     display: flex;
-    flex-direction: column;
     border-top: 1px solid rgba(15, 15, 15, 0.3);
     justify-content: space-between;
     background-color: rgb(209, 209, 209);
 }
 
 .statsItems{
+    width: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .statsItemsMid{
-    border: 1px solid rgba(15, 15, 15, 0.3);
-
+    composes:statsItems;
+    border-left: 1px solid rgba(15, 15, 15, 0.3);
+    border-right: 1px solid rgba(15, 15, 15, 0.3);
 }
 
 .label{
